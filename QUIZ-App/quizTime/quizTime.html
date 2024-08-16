@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="icon" type="image/x-icon" href="/quizTime/favicon.ico" /> -->
+    <link rel="stylesheet" href="/quizTime/quizTime.css" />
+    <title>Quiz Time</title>
+  </head>
+  <body>
+    <section class="all-content">
+    <header>
+      <nav class="header-nav">
+        <div class="quiz-logo">
+          <a href="/start-quiz.html"
+            ><img src="/images/Group 4.png" alt="quiz app logo" class="logo"
+          /></a>
+        </div>
+        <div class="music-icon">
+          <img
+            src="/images/🦆 icon _Volume Up_.png"
+            alt="Volume button"
+            class="volume-btn"
+          />
+        </div>
+        <audio
+          id="mySound"
+          src="/Audio/y2mate.com - Winner   Sound Effect HD.mp3"
+        ></audio>
+        <audio
+          id="mySound2"
+          src="/Audio/y2mate.com - Loser Sound Effects.mp3"
+        ></audio>
+      </nav>
+      <div class="header-para">
+        <p class="header-paragraph">1/25</p>
+      </div>
+    </header>
+
+    <main>
+      <p class="questions">
+        Inside which HTML element do we put the JavaScript?
+      </p>
+      <div class="time">00:30</div>
+
+      <div class="answer-section">
+        <p class="answer-1 answer-para">&lt;js&gt;</p>
+        <p class="answer-2 answer-para">&lt;scripting&gt;</p>
+        <p class="answer-3 answer-para">&lt;javascript&gt;</p>
+        <p class="answer-4 answer-para">&lt;script&gt;</p>
+      </div>
+    </main>
+    <button id="nextButton">Next</button>
+    <p class="footer-para">Made With ❤️ By Izhar ProCoder</p>
+  </section>
+    <section class="result-page show">
+      <h3>Result</h3>
+      <main class="flex">
+        <div class="div-1">
+          <div class="div-2"></div>
+        </div>
+
+        <p class="show-right-answer-count"></p>
+        <p class="result-p">“Keep learning, you have a good score!”</p>
+        <div class="quiz-start-button">
+          <a href="/start-quiz.html" class="btn-start"><<< Retry</a>
+        </div>
+      </main>
+
+    </section>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
